@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página Inicial</title>
+
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+	crossorigin="anonymous">
+<link href="_css/estiloProjeto.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light"
+		style="background-color: #b1c87b; text-decoration-style: double;">
+		<!--navbar-ligth é onde muda a cor do texto e o style muda a cor de acordo com o que eu quero
+            bg-danger, por exemplo, pode ser colocado no lugar do style para que seja usada uma cor da classe de temas do bootstrap-->
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/"> <img
+				src="_img/Logo Casa Da Reciclagem.png" width="100" height="100"
+				class="d-inline-block aling-top" alt="Logo Casa da Reciclagem">
+			</a>
+			<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="quemSomos.html"><b>QUEM SOMOS?</b></a></li>
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="contato.html"><b>CONTATO</b></a></li>
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="horarios.html"><b>HORÁRIOS DA
+								COLETA</b></a></li>
+                    <li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="cadastrarUsuario"><b>CADASTRO DE USUÁRIOS</b></a></li>
+					<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="usuarios"><b>LISTA DE USUÁRIOS</b></a></li>
+					<li class="nav-item dropdown"><a
+						class="nav-link active dropdown-toggle" href="#"
+						id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+						aria-expanded="false"><b>SERVIÇOS</b> </a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">COLETA SELETIVA</a></li>
+							<li><a class="dropdown-item" href="#">RECEBIMENTO DO
+									LIXO RECICLÁVEL</a></li>
+							<li><a class="dropdown-item" href="#">RETIRADA DE LIXO
+									RECICLÁVEL</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">COMO SEPARAR O
+									LIXO?</a></li>
+						</ul></li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search"
+						placeholder="O que você procura?" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Buscar</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<form id="formulario" method="post">
+<table>
+	<tr>
+	<td>Nome:</td>
+	<td><input name="nome" type="text" maxlength="80"></td>
+	</tr>
+	
+	<tr>
+	<td>Sobrenome:</td>
+	<td><input name="sobrenome" type="text" maxlength="80"></td>
+	</tr>
+	
+	<tr>
+	<td>Data de nascimento:</td>
+	<td><input name ="dataNascimento" type="date" maxlength="8"></td>
+	</tr>
+	
+	<tr>
+	<td>Email:</td>
+	<td><input name="email" type="email" maxlength="40"></td>
+	</tr>
+	
+	<tr>
+	<td>Telefone:</td>
+	<td><input name="telefone" type="text" maxlength="11"></td>
+	</tr>
+	
+	<tr>
+	<td><input type="submit" value="Cadastrar"></td>
+	</tr>
+</table>		
+	</form>
+
+</body>
+
+<script
+	src=https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css
+	rel="stylesheet"
+	integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+	crossorigin="anonymous"></script>
+<script
+	src=https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js
+	integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+	crossorigin="anonymous"></script>
+
+</html>
