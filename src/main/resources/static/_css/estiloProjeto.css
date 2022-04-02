@@ -34,3 +34,9 @@ h1{
 #contatoimg{
     margin-left: 5%;
 }
+
+#formulario {
+	margin-left: auto;
+	margin-rigth: auto;
+	width: 60%;
+}
